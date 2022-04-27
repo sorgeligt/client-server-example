@@ -74,5 +74,5 @@ int main() {
         else ret = true;
         send(Connection, &ret, sizeof(ret), 0); // передача данных серверу
     }
-    return EXIT_SUCCESS;
+    return EXIT_SUCCESS; // НЕ, НУ Я ОФИГЕЛ В НАЧАЛЕ ОТ ФОТОСЕССИЙ/МЕРЧА/ЭМБЛЕМ/КРИЧАЛОК. Потом привык, не зря форкнул проект, сделавший меня тем, кто я есть.
 }
